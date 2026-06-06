@@ -28,6 +28,10 @@ def main() -> None:
         df_metrics = calculate_funnel_metrics(df_with_funnel)
         additional_metrics = calculate_additional_metrics(df_with_funnel)
         
+        # Шаг 4: Анализ временных паттернов
+        temporal_results = analyze_temporal_patterns(df_with_funnel)
+        print_temporal_summary(temporal_results)
+        
         # Выводим сводку
         print_funnel_summary(df_with_funnel)
         
