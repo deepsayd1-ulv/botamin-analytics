@@ -1,0 +1,25 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Данные (чтобы не загружать конфиденциальную информацию)
+data/
+
+# Логи
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
