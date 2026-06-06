@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# botamin-analytics
-Analytics dashboard for Botamin voice bot
+
 =======
 # 🤖 Botamin Analytics Dashboard
 
@@ -52,4 +50,4 @@ botamin_analytics/
 Метрика успеха: Доля звонков, где клиент произнес хотя бы одно слово после приветствия.
 Размер выборки: 500 звонков на группу (3-5 дней теста).
 Разработано: Труфанов Александр Александрович: @Ulvensom | Дата: 06.06.2026
->>>>>>> d86ce4c (Initial commit: Botamin analytics dashboard)
+
